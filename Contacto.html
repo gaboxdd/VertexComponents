@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Vertex Components - Contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Diseño.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Acerca.html">Acerca de</a></li>
+                <li><a href="Productos.html">Productos</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="form-contacto" autocomplete="off">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="confirmacion"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Autor: Gabriel Rojas · Contacto: gabriel.rojasg@pca.edu.co</p>
+    </footer>
+    <script src="Java.js"></script>
+</body>
+</html>
